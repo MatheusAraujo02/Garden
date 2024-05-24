@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import { ImageBackground, Pressable, StyleSheet,  Text, TextInput, View} from 'react-native';
 
-import fundologin from '../assets/fundologin.png';
+import fundologin from '../../assets/fundologin.png';
 
-import styles from '../src/styles';
+import styles from "./styles";
 
 
 export default function Login ( ) {
@@ -11,7 +11,7 @@ export default function Login ( ) {
         <View style={styles.container} >
 
             <ImageBackground
-             source={fundologin} style={styles.container}
+             source={fundologin} style={styles.fundologin}
             >
             <Text style={styles.titulo}>GARDEN</Text>
 
