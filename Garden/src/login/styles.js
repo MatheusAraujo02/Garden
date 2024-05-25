@@ -3,18 +3,18 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     container:{
         flex: 1,
-         width: '100%', 
-         height: '100%', 
-        // alignItems: 'center', 
-        backgroundColor: '#236c1a', 
+        width: '100%',
+        alignItems: 'center', 
         padding: 8,
         borderRadius: 10, 
+        alignContent: 'center',
+        borderRadius: 20,
         
     },
 
     fundologin: {
-        // width: '100%',
-        height: '100vh',
+        width: '100%',
+        borderRadius: '10%'
 
     },
 

@@ -11,8 +11,8 @@ export default function Login ( ) {
         <View style={styles.container} >
 
             <ImageBackground
-             source={fundologin} style={styles.fundologin}
-            >
+             source={fundologin} style={styles.fundologin} borderRadius={20}>
+             
             <Text style={styles.titulo}>GARDEN</Text>
 
             <Text style={styles.text}>Usuário</Text>
